@@ -102,4 +102,5 @@ async def on_message(message):
             encouragements = db["encouragements"]
         await message.channel.send(encouragements)
 
-client.run('ODQyOTg2NDExNjkwOTUwNjc2.YJ9SRg.BPivW18LAJ-O3yIFkjzJ2SE6S-8')
+BotToken = ''
+client.run(BotToken)
